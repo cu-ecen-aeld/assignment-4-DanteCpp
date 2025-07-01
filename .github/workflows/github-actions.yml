@@ -24,4 +24,4 @@ jobs:
           - name: Cleanup
             if: always()
             run: |
-              ssh-add -D || echo "No ssh-agent running. nothing to clean."
+              ssh-add -D
